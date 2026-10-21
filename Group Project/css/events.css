@@ -1,0 +1,399 @@
+
+/* -------------------------
+   Events Page
+------------------------- */
+
+.events-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+    font-family: Arial, sans-serif;
+}
+
+
+/* -------------------------
+   Events Hero
+------------------------- */
+
+.events-hero {
+    background-color: #005baa;
+    color: white;
+    padding: 50px 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.events-hero h1 {
+    color: white;
+    font-size: 36px;
+    margin-top: 0;
+}
+
+.events-hero p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+
+/* -------------------------
+   Events Section
+------------------------- */
+
+.events-section {
+    margin-top: 45px;
+}
+
+.events-section h2 {
+    color: #005baa;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.events-intro {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.events-notice {
+    background-color: #fff8e6;
+    color: #5c481a;
+    border-left: 4px solid #e6b647;
+    padding: 15px 20px;
+    margin: 20px 0;
+    line-height: 1.6;
+}
+
+
+/* -------------------------
+   Events Grid
+------------------------- */
+
+.events-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 25px;
+    margin-top: 30px;
+}
+
+
+/* -------------------------
+   Event Cards
+------------------------- */
+
+.event-card {
+    display: flex;
+    flex-direction: column;
+
+    background-color: white;
+
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+
+    padding: 25px;
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+
+    transition: transform 0.2s;
+}
+
+.event-card:hover {
+    transform: translateY(-5px);
+}
+
+.event-category {
+    display: inline-block;
+    align-self: flex-start;
+
+    background-color: #e6f1fa;
+    color: #005baa;
+
+    font-size: 13px;
+    font-weight: bold;
+
+    padding: 7px 12px;
+    border-radius: 5px;
+
+    margin-bottom: 15px;
+}
+
+.event-card h3 {
+    color: #005baa;
+    font-size: 22px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.event-card > p {
+    color: #555;
+    line-height: 1.6;
+}
+
+.event-info {
+    margin-top: auto;
+    margin-bottom: 15px;
+}
+
+.event-info p {
+    font-size: 14px;
+    color: #444;
+    margin: 10px 0;
+}
+
+
+/* -------------------------
+   Buttons
+------------------------- */
+
+.event-button {
+    display: inline-block;
+
+    background-color: #005baa;
+    color: white;
+
+    padding: 12px 20px;
+
+    border-radius: 5px;
+
+    text-decoration: none;
+    text-align: center;
+
+    font-weight: bold;
+}
+
+.event-button:hover {
+    background-color: #003e75;
+    color: white;
+}
+
+.event-button:focus-visible {
+    outline: 3px solid #e6b647;
+    outline-offset: 3px;
+}
+
+.event-pending {
+    display: block;
+
+    padding: 12px;
+
+    color: #777;
+
+    font-size: 14px;
+    text-align: center;
+
+    font-style: italic;
+}
+
+
+/* -------------------------
+   Bottom Section
+------------------------- */
+
+.events-bottom {
+    background-color: #eef5fb;
+
+    padding: 35px;
+    margin-top: 50px;
+
+    border-radius: 10px;
+
+    text-align: center;
+}
+
+.events-bottom h2 {
+    color: #005baa;
+    margin-top: 0;
+}
+
+.events-bottom p {
+    color: #555;
+    margin-bottom: 25px;
+}
+
+
+/* -------------------------
+   Event Detail Page
+------------------------- */
+
+.back-navigation {
+    margin-bottom: 25px;
+}
+
+.back-navigation a {
+    color: #005baa;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.back-navigation a:hover {
+    text-decoration: underline;
+}
+
+
+/* Event Detail Header */
+
+.detail-header {
+    background-color: #005baa;
+
+    color: white;
+
+    padding: 45px 35px;
+
+    border-radius: 10px;
+}
+
+.detail-header .event-category {
+    background-color: white;
+}
+
+.detail-header h1 {
+    color: white;
+
+    font-size: 36px;
+
+    margin: 10px 0 15px;
+}
+
+.detail-header p {
+    font-size: 18px;
+
+    line-height: 1.6;
+
+    max-width: 750px;
+}
+
+
+/* -------------------------
+   Detail Sections
+------------------------- */
+
+.detail-section {
+    margin-top: 40px;
+}
+
+.detail-section h2 {
+    color: #005baa;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.detail-section > p {
+    color: #444;
+    line-height: 1.8;
+}
+
+
+/* -------------------------
+   Detail Grid
+------------------------- */
+
+.detail-grid {
+    display: grid;
+
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+
+    gap: 20px;
+}
+
+.detail-card {
+    background-color: #f5f8fc;
+
+    padding: 25px;
+
+    border: 1px solid #dddddd;
+
+    border-radius: 8px;
+}
+
+.detail-card h3 {
+    color: #005baa;
+
+    font-size: 18px;
+
+    margin-top: 0;
+}
+
+.detail-card p {
+    color: #444;
+
+    margin-bottom: 0;
+}
+
+
+/* -------------------------
+   Activities List
+------------------------- */
+
+.activity-list {
+    padding-left: 25px;
+
+    line-height: 2;
+
+    color: #444;
+}
+
+
+/* -------------------------
+   Tablet Layout
+------------------------- */
+
+@media screen and (max-width: 900px) {
+
+    .events-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+}
+
+
+/* -------------------------
+   Mobile Layout
+------------------------- */
+
+@media screen and (max-width: 600px) {
+
+    .events-page {
+        padding: 25px 20px;
+    }
+
+    .events-hero {
+        padding: 35px 20px;
+    }
+
+    .events-hero h1 {
+        font-size: 28px;
+    }
+
+    .events-hero p {
+        font-size: 16px;
+    }
+
+    .events-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .event-card {
+        padding: 20px;
+    }
+
+    .detail-header {
+        padding: 30px 20px;
+    }
+
+    .detail-header h1 {
+        font-size: 28px;
+    }
+
+    .detail-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .detail-card {
+        padding: 20px;
+    }
+
+    .events-bottom {
+        padding: 25px 20px;
+    }
+
+}
